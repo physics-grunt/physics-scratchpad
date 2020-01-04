@@ -1,6 +1,5 @@
 import random
 
-
 N=16
 l = []
 s=''
@@ -15,5 +14,4 @@ random.shuffle(l)
 for i in range(N):
     s += l[i]
 random.shuffle(l)
-
 print(s[:N])
