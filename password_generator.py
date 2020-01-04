@@ -13,5 +13,4 @@ l*=N
 random.shuffle(l)
 for i in range(N):
     s += l[i]
-random.shuffle(l)
-print(s[:N])
+print(s)
